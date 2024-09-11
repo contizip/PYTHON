@@ -29,3 +29,9 @@ print(nome[0:4]) # Esta operação se chama de slice de string
 
 # ['Guilherme', 'na']
 print(nome.split()[0])
+
+print(nome[::-1]) # Inversão de string Pythonica
+
+print(nome.replace('e', 'i'))
+
+print(type(nome))
