@@ -42,3 +42,28 @@ OBS: O valor final não é inclusivo. Por exemplo: de um 1 a 10 ele só irá at�
 # Exemplos de for 3 (iterando sobre um range)
 for numero in range(1, 10):
     print(numero)
+
+
+nome = 'Guilherme Conti Teixeira'
+lista = [1, 3, 5, 7, 9]
+numeros = range(1,10) # Temos que transformar em uma lista
+
+for _, letra in enumerate(nome):
+    print(letra)
+
+"""
+Quando não precisamos de uma valor e queremos descartar, utilizamos o _
+"""
+
+quantidade = int(input('Quantas vezes isso deve rodar ? '))
+soma = 0
+
+for n in range(1, quantidade+1):
+    num = int(input(f'Informe o {n}/{quantidade} valor: '))
+    soma = soma + num
+print(f'A soma é `{soma}')
+
+emoji = 'U0001F60D'
+
+for num in range(1, 11):
+    print('\001F60D * num)
